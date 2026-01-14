@@ -30,7 +30,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring. You should talk to the manager to have your site added to the list! Contact @avrgfrnchguy on Discord.</td>
+    <td>This site isn't part of the ${ringName} webring. You should talk to the manager to have your site added to the list! Contact @ayulume on Discord.</td>
   </tr>
 </table>
   `);
