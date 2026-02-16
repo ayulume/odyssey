@@ -15,10 +15,14 @@
   margin: 0 auto; /* centers the widget */
 }
 
-#odyssey img {
-  height:100px;
-  width:auto;
+#odyssey a > img {
+  height: 100px;
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
+
 #odyssey table tr td {
   padding: 15px; /* creates some space between the links and text inside the widget */
 }
