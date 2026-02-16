@@ -60,7 +60,6 @@ else {
       <tr>
               <td class='webring-prev'><a href='${sites[previousIndex]}'>\<= Previous</a></td>
         <span class='webring-links'>
-          ${randomText}
           ${indexText}
         <td class='webring-next'><a href='${sites[nextIndex]}'>Next =\></a></td>
       </tr>
