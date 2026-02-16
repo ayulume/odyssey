@@ -15,7 +15,7 @@
   margin: 0 auto; /* centers the widget */
 }
 
-.img {
+#odyssey .img {
   height:100px;
   width:auto;
 }
