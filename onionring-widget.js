@@ -30,7 +30,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring. You should talk to the manager to have your site added to the list! Contact @ayulume on Discord.</td>
+    <td>Uh oh! You're not in Odyssey yet! It's fine though, DM @ayulume on Discord!</td>
   </tr>
 </table>
   `);
@@ -45,7 +45,7 @@ else {
   indexText = ""
   //if you've chosen to include an index, this builds the link to that
   if (useIndex) {
-    indexText = `<a href='${indexPage}'><img src="https://seqyu.is-a.dev/images/odyssey.png"></a> `;
+    indexText = `<a href='${indexPage}'><img src="https://ayulume.is-a.dev/images/odyssey.png"></a> `;
   }
 
   randomText = ""
@@ -62,7 +62,6 @@ else {
         <span class='webring-links'>
           ${randomText}
           ${indexText}
-          <a href='https://garlic.garden/onionring/'>what is this?</a></span></td>
         <td class='webring-next'><a href='${sites[nextIndex]}'>Next =\></a></td>
       </tr>
     </div>
