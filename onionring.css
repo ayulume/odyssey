@@ -5,14 +5,32 @@
 /* === ONIONRING.CSS === */
 /* this file affects the style of the widget. remember to replace all instances of #odyssey with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 #odyssey {
   margin: 0 auto;
-  padding: 15px; /* creates some space around the widget */
+  padding: 15px;
+  font-family: 'VT323', monospace;
 }
 
 #odyssey div {
-  background-color: #5900ff;
-  margin: 0 auto; /* centers the widget */
+  background-color: #002f2f;
+  border: 2px double #00ffcc;
+  box-shadow: 0 0 10px #00ffaa;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+#odyssey a {
+  color: #00ffcc;
+  text-decoration: underline;
+  font-family: 'VT323', monospace;
+  font-size: 1.6rem;
+}
+
+#odyssey a:hover {
+  color: #00ff66;
+  text-shadow: 0 0 6px #00ff99;
 }
 
 #odyssey a > img {
@@ -21,24 +39,29 @@
   max-width: 100%;
   display: block;
   margin: 0 auto;
+  border: 2px dashed #00ffcc;
+  border-radius: 6px;
 }
 
 #odyssey table tr td {
-  padding: 15px; /* creates some space between the links and text inside the widget */
+  padding: 15px;
+  color: #ccffe6;
+  font-family: 'VT323', monospace;
+  font-size: 1.4rem;
 }
 
 #odyssey .webring-prev {
-  text-align:right;
+  text-align: right;
 }
 
 #odyssey .webring-info {
-   text-align:center;
+  text-align: center;
 }
 
 #odyssey .webring-next {
-  text-align:left;
+  text-align: left;
 }
 
 #odyssey .webring-links {
-  font-size:small;
+  font-size: small;
 }
