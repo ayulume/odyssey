@@ -9,7 +9,8 @@
 var sites = [
 'https://ayulume.is-a.dev',
 'https://kuur0.neocities.org/',
-'https://brisray.com'
+'https://brisray.com',
+'https://shockandhorror.nekoweb.org/'
 ];
 
 //the name of the ring
